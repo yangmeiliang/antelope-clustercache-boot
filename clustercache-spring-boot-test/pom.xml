@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.antelope.clustercache</groupId>
+        <groupId>com.antelope</groupId>
         <artifactId>antelope-clustercache-boot</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
@@ -14,7 +14,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.antelope.clustercache</groupId>
+            <groupId>com.antelope</groupId>
             <artifactId>clustercache-spring-boot-stater</artifactId>
             <version>${parent.version}</version>
         </dependency>
