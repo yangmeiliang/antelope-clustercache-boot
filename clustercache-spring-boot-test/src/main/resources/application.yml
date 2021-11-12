@@ -3,13 +3,12 @@ spring:
     name: example
   redis:
     password: 123456
-  cache:
-    type: redis
 clustercache:
   enable: true
   redis:
     key-prefix: ${spring.application.name}
     default-ttl: 30s
+    password: 123456
   cache-type: redis
 #  memcached:
 #    key-prefix: ${spring.application.name}

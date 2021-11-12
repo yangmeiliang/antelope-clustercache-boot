@@ -1,4 +1,4 @@
-package com.antelop.clustercache;
+package com.example;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -18,10 +18,16 @@ public class BaseTest {
     @Resource
     RedisCache redisCache;
 
+    static {
+        System.setProperty("logging.level", "debug");
+        System.setProperty("logging.level.root", "debug");
+        System.setProperty("logging.level.com.antelope.clustercache", "debug");
+    }
+
 
     @Test
     public void test() {
-        String s = redisCache.get("123");
+        String s = redisCache.get("12313");
         System.out.println(s);
 
     }

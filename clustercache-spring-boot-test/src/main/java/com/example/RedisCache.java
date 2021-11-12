@@ -1,6 +1,6 @@
-package com.antelop.clustercache;
+package com.example;
 
-import com.antelope.clustercache.autoconfigure.CacheExpire;
+import com.antelope.clustercache.autoconfigure.annotion.CacheExpire;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Component;
 

@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.antelope.clustercache.autoconfigure.CacheAutoConfiguration
+  com.antelope.clustercache.autoconfigure.ClusterCacheAutoConfiguration

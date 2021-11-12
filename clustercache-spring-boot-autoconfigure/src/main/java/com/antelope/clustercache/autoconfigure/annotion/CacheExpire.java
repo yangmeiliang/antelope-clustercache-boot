@@ -1,4 +1,4 @@
-package com.antelope.clustercache.autoconfigure;
+package com.antelope.clustercache.autoconfigure.annotion;
 
 import org.springframework.core.annotation.AliasFor;
 
